@@ -1,0 +1,130 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>测试WebAPI</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="product" content="测试WebAPI" />
+    <link href="/css/metro-bootstrap.css" rel="stylesheet" />
+    <link href="/css/metro-bootstrap-responsive.css" rel="stylesheet" />
+    <link href="/css/modern.css" rel="stylesheet" />
+    <link href="/css/siteC.css" rel="stylesheet" />
+    <link href="/css/token-input-facebook.css" rel="stylesheet" />
+    <link href="/css/jquery-ui.css" rel="stylesheet" />
+    <script src="/js/My97DatePicker/WdatePicker.js"></script>
+
+    <!-- Load JavaScript Libraries -->
+    <script src="/js/jquery/jquery.min.js"></script>
+    <script src="/js/jquery/jquery.widget.min.js"></script>
+    <!-- Metro UI CSS JavaScript plugins -->
+    <script src="/js/load-metro.js"></script>
+    <script src="/js/jquery/jquery-ui.js"></script>
+    <!--<script src="/js/jquery/jquery.tokeninputCustom.js"></script>-->
+    <script src="/js/jquery/jquery.tokeninputFile.js"></script>
+    <!-- Local JavaScript -->
+    <script src="/js/docs.js"></script>
+    <script src="/js/metro.min.js"></script>
+    <script src="/js/jquery/jquery-ui.js"></script>
+    <script src="/js/jquery/jsrender.min.js"></script>
+    <script src="/ClientJS/Public.js"></script>
+    <script src="../../ClientJS/Common/reference.js"></script>
+    <script src="../../ClientJS/Common/MemberSelector.js"></script>
+    <script src="../../ClientJS/Test/test.js"></script>
+</head>
+<body class="metro gaosu">
+    <div class="divFlow">
+        <table class="table no-border shadow">
+            <tr>
+                <td class="alignR bold" style="vertical-align: middle; width: 20%;">会议名称</td>
+                <td>
+                    <div class="input-control text">
+                        <input type="text" value="" placeholder="必填项" id="txtMeetingName" />
+                        <button class="btn-clear"></button>
+                    </div>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="alignR bold" style="vertical-align: middle; width: 20%;">会议主题</td>
+                <td>
+                    <div class="input-control text">
+                        <input type="text" value="" placeholder="必填项" id="txtMeetingTheme" />
+                        <button class="btn-clear"></button>
+                    </div>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="alignR bold" style="vertical-align: middle; width: 20%;">会议室</td>
+                <td>
+                    <div class="input-control select">
+                        <select id="ddlMeetingRoom" style="width: 65%"></select>
+                        <button id="btnRoomView">详情查看</button>
+                    </div>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="alignR bold" style="vertical-align: middle; width: 20%;">参会人</td>
+                <td>
+                    <div class="list-remark">
+                        <input id="hidPersonId" type="hidden" value="0" />
+                        <div class="usersList" id="divParticipantsList"></div>
+                        <i class="icon-user btnUpload" onclick="ShowDialogParticipants()"></i>
+                    </div>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="alignR bold" style="vertical-align: middle; width: 20%;">会务员</td>
+                <td>
+                    <div class="list-remark">
+                        <input id="hidAPersonId" type="hidden" value="0" />
+                        <div class="usersList" id="divAttendantList"></div>
+                        <i class="icon-user btnUpload" onclick="ShowDialogAttendant()"></i>
+                    </div>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="alignR bold">会议开始时间</td>
+                <td>
+                    <div class="input-control text">
+                        <input type="text" placeholder="必填项" id="txtStartTime" onclick="WdatePicker({ dateFmt: 'yyyy-MM-dd HH:mm' })" />
+                        <button class="btn-clear"></button>
+                    </div>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="alignR bold">会议结束时间</td>
+                <td>
+                    <div class="input-control text">
+                        <input type="text" placeholder="必填项" id="txtEndTime" onclick="WdatePicker({ dateFmt: 'yyyy-MM-dd HH:mm' })" />
+                        <button class="btn-clear"></button>
+                    </div>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="alignR bold" style="vertical-align: middle; width: 20%;">会议说明</td>
+                <td>
+                    <div class="input-control textarea">
+                        <textarea placeholder="输入会议说明" id="txtDescription"></textarea>
+                    </div>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td align="center">
+                    <button id="btnAdd"><i class="icon-checkmark on-left"></i>确定</button>
+                    <button id="btnCancel"><i class="icon-minus-2 on-left"></i>取消</button>
+                </td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

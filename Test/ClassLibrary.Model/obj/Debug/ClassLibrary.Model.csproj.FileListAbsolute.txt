@@ -1,0 +1,17 @@
+G:\project\WebAPITest\Test\ClassLibrary.Model\bin\Debug\ClassLibrary.Model.dll
+G:\project\WebAPITest\Test\ClassLibrary.Model\bin\Debug\ClassLibrary.Model.pdb
+G:\project\WebAPITest\Test\ClassLibrary.Model\obj\Debug\ClassLibrary.Model.dll
+G:\project\WebAPITest\Test\ClassLibrary.Model\obj\Debug\ClassLibrary.Model.pdb
+G:\project\WebAPITest\Test\ClassLibrary.Model\bin\Debug\ClassLibrary.Model.dll.config
+G:\project\WebAPITest\Test\ClassLibrary.Model\bin\Debug\EntityFramework.dll
+G:\project\WebAPITest\Test\ClassLibrary.Model\bin\Debug\EntityFramework.SqlServer.dll
+G:\project\WebAPITest\Test\ClassLibrary.Model\bin\Debug\log4net.dll
+G:\project\WebAPITest\Test\ClassLibrary.Model\bin\Debug\Newtonsoft.Json.dll
+G:\project\WebAPITest\Test\ClassLibrary.Model\bin\Debug\EntityFramework.xml
+G:\project\WebAPITest\Test\ClassLibrary.Model\bin\Debug\EntityFramework.SqlServer.xml
+G:\project\WebAPITest\Test\ClassLibrary.Model\bin\Debug\log4net.xml
+G:\project\WebAPITest\Test\ClassLibrary.Model\bin\Debug\Newtonsoft.Json.xml
+G:\project\WebAPITest\Test\ClassLibrary.Model\obj\Debug\ClassLibrary.Model.csprojResolveAssemblyReference.cache
+G:\project\WebAPITest\Test\ClassLibrary.Model\bin\Debug\ClassLibrary.Core.dll
+G:\project\WebAPITest\Test\ClassLibrary.Model\bin\Debug\ClassLibrary.Core.pdb
+G:\project\WebAPITest\Test\ClassLibrary.Model\bin\Debug\ClassLibrary.Core.dll.config

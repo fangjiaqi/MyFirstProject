@@ -1,0 +1,133 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>会议日程审批</title>
+    <link href="/css/metro-bootstrap.css" rel="stylesheet">
+    <link href="/css/metro-bootstrap-responsive.css" rel="stylesheet" />
+    <link href="/css/modern.css" rel="stylesheet">
+    <link href="/css/siteC.css" rel="stylesheet" id="css1">
+    <style>
+        .query-highlight {
+            background-color: yellow;
+            font-weight: inherit;
+            font-size: inherit;
+            font-family: inherit;
+            color: inherit;
+        }
+
+        #divMeetingApply .list-remark {
+            white-space: normal;
+        }
+    </style>
+
+    <!-- Load JavaScript Libraries -->
+    <script src="/js/jquery/jquery.min.js"></script>
+    <script src="/js/jquery/jquery-ui.js"></script>
+    <script src="/js/jquery/jquery.widget.min.js"></script>
+    <!-- Metro UI CSS JavaScript plugins -->
+    <script src="/js/load-metro.js"></script>
+    <!-- Local JavaScript -->
+    <script src="/js/docs.js"></script>
+    <script src="/js/metro.min.js"></script>
+    <script src="/js/metro/metro-dialog.js"></script>
+    <script src="/js/jquery/jquery.cookie.js"></script>
+    <!---->
+    <script src="/js/jquery/jsrender.min.js"></script>
+    <script src="../../ClientJS/Public.js"></script>
+    <script src="../../../ClientJS/Common/reference.js"></script>
+    <script src="/ClientJS/Common/RenderHelper.js"></script>
+    <script src="../../ClientJS/Test/MeetingScheduleApproval.js"></script>
+
+    <script type="text/x-jsrender" id="tmplMeetingApply">
+        <div class="list bg1 data-item">
+            <input type="hidden" id="hidId" value="{{:Id}}" />
+            <input type="hidden" id="hidStatus" value="{{:Status}}" />
+            <div class="list-content" style="width: 60px; height: 60px; float: left; vertical-align: middle;">
+                {{if Status==2}}
+                <i class="icon-cancel-2 on-left" style="background: red; color: white; padding: 7px; border-radius: 55%; vertical-align: middle;" title="已拒绝"></i>
+                {{/if}}
+                {{if Status==1}}
+                <i class="icon-checkmark on-left" style="background: green; color: white; padding: 7px; border-radius: 55%; vertical-align: middle;" title="已批准"></i>
+                {{/if}}
+            </div>
+            <div class="list-content" style="margin-left: 60px;">
+                <div class="dataTitle">
+                    <span class="list-title searchable">{{:MeetingName}}</span>
+                </div>
+                <div class="dataContent" style="display: inline;">
+                    {{if MeetingTheme}}
+                    <span class="list-remark searchable" style="display: inline;">会议主题：<span style="color: #000">{{:MeetingTheme}}</span>&nbsp;&nbsp;</span>
+                    {{/if}}
+                    {{if Participants}}
+                    <span class="list-remark searchable" style="display: inline;">参会人：<span style="color: #000">{{:pName}}</span>&nbsp;&nbsp;</span>
+                    {{/if}}
+                </div>
+                <div class="dataContent" style="display: inline;">
+                    {{if RoomName}}
+                    <span class="list-remark searchable" style="display: inline;">会议室：<span style="color: #000">{{:RoomName}}</span>&nbsp;&nbsp;</span>
+                    {{/if}}
+                    {{if Attendant}}
+                    <span class="list-remark searchable" style="display: inline;">会务员：<span style="color: #000">{{:aName}}</span>&nbsp;&nbsp;</span>
+                    {{/if}}
+                </div>
+                <div class="dataContent" style="display: inline;">
+                    {{if StartTime}}
+                    <span class="list-remark searchable" style="display: inline;">会议时间：<span style="color: #000">{{:~dateFormatToMinute(StartTime)}}</span></span>
+                    {{/if}}
+                    ~
+                    {{if EndTime}}
+                    <span class="list-remark searchable" style="display: inline;"><span style="color: #000">{{:~dateFormatToMinute(EndTime)}}</span>&nbsp;&nbsp;</span>
+                    {{/if}}
+                </div>
+                <div class="dataContent" style="display: inline;">
+                    {{if Description}}
+                    <span class="list-remark searchable" style="display: inline;">会议说明：<span style="color: #000">{{:Description}}</span>&nbsp;&nbsp;</span>
+                    {{/if}}
+                    {{if Status=="已拒绝"}}
+                    <span class="list-remark searchable" style="display: inline;">拒绝原因：<span style="color: #000">{{:RefuseReason}}</span>&nbsp;&nbsp;</span>
+                    {{/if}}
+                </div>
+            </div>
+        </div>
+    </script>
+</head>
+<body class="metro gaosu">
+    <div class="docConta">
+        <div class="div-table">
+            <div class="div-table-tr">
+                <div class="title div-table-td font40">
+                    会议日程审批
+                </div>
+                <div class="search div-table-td">
+                    <div class="input input-control text" style="width:60%;">
+                        <input type="text" id="txtKeyword" data-enter-button="#btnSearch" />
+                        <button class="btn-search btnSearchMargin" id="btnSearch"></button>
+                    </div>
+                    <div class="input-control select" style="width: 10%; margin-left:10px;">
+                        <select id="ddlApprovalStatus">
+                            <option value="-1"></option>
+                            <option value="0" selected>未审核</option>
+                            <option value="1">已批准</option>
+                            <option value="2">已驳回</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="function div-table-td">
+                    <button id="btnApproval"><i class="icon-pencil on-left"></i>审批</button>
+                </div>
+            </div>
+        </div>
+        <div class="tab-control" data-role="tab-control">
+            <div class="frames">
+                <div class="frame" id="_work_0">
+                    <div id="divMeetingApply" class="listview">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

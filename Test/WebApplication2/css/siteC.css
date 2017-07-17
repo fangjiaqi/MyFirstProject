@@ -1,0 +1,2679 @@
+﻿body
+{
+    /*background-color:#EAEFFC;*/
+	font-family:"宋体";
+	font-size:12px;
+}
+.bgIndex{
+    background-image:url(../images/owl-bg.png); 
+    background-color:#bfd0e2; 
+    background-position:center; 
+    background-attachment:fixed;
+}
+.left 
+{
+    width:350px;/*30%;*/
+    height:535px;
+    float:left;
+    margin:10px 5px 10px 20px;
+}
+.center 
+{
+    width:350px;/*30%;*/
+    height:535px;
+    float:left;
+    margin:10px 5px 10px 0px;
+}
+.right 
+{
+    width:32%;
+    height:535px;
+    float:right;
+    /*margin:10px;*/
+}
+.divLeft{
+    width: 49.3%;
+    height: 130px;
+    float:left;
+    margin-bottom: 5px;
+    /*text-align: center;*/
+}
+.divRight{
+    width: 49.5%;
+    height: 130px;
+    float:right;
+    margin-bottom: 5px;
+}
+.divLeft:hover {
+    border: 1.5px solid #fff;
+}
+.divRight:hover {
+    border: 1.5px solid #fff;
+}
+
+.icon {
+    width: 100%;
+    height: 100%;
+    background: #094CB5;/*rgb(30, 17, 189);*/
+    color: white; 
+    padding: 10px; 
+    /*border-radius: 50%;*/ 
+    text-align: center;
+    cursor:pointer;
+    font-size: 45px;
+    padding-top: 15px;
+}
+
+.sp {
+    color:#fff;
+    font-size: 15px;
+    top: -25px;
+    left: 50px;
+    position: relative;
+    cursor:pointer;
+    text-align: center; 
+}
+.logoImg{
+    position: relative;
+    margin-left: 160px
+}
+.window .title {
+    /*font-size: 20px;
+    margin-left: 15px;*/
+    color: #fff;
+    font-weight:bold;
+}
+.metro .vertical-menu li a{
+    font-size:15px;
+    color: green;
+}
+.metro .vertical-menu li a:hover{
+    text-decoration:underline;
+}
+.divHome{
+    width: 100%;
+    height: 130px;
+}
+.divEmail{
+    width: 24%;
+    height: 60px;
+    float:left;
+    margin-left: 4px;
+    margin-top: 1.5px;
+}
+.small {
+    font-size: 30px;
+}
+.spSmall{
+    top: -22px;
+    left: 8px;
+    font-size: 6px;
+}
+
+.right .licls{
+    line-height: 30px;
+    list-style: none;
+	border-bottom:1px dotted #0099CC
+}
+.licls a:link{color:#336633}
+.licls a:hover{color:#006666}
+
+.font1p2em{
+    font-size: 1.2em!important;
+    line-height: 1.2em!important;
+    cursor:pointer;
+}
+.font1em{
+    font-size: 1em !important;
+    line-height: 1em!important;
+    cursor:pointer;
+}
+.font0p8em{
+    font-size: 0.8em !important;
+    line-height: 1em!important;
+    cursor:pointer;
+}
+
+.font30{
+    font-size: 30px !important;
+    cursor:pointer;
+}
+.font40{
+    font-size: 40px !important;
+    cursor:pointer;
+}
+.font45{
+    font-size: 45px !important;
+    cursor:pointer;
+}
+.font60{
+    font-size: 60px !important;
+    cursor:pointer;
+}
+.fontYaHei{
+	font-family:"微软雅黑" !important;
+}
+.doc {
+    background: #900098;
+    color: #fff;
+    height: 250px;
+}
+.docLeft{
+    width: 450px;
+    height: 535px;
+    float: left;
+    margin: 50px 5px 10px 0px;
+}
+.docCenter{
+    width: 450px;
+    height: 535px;
+    float: left;
+    margin: 50px 5px 10px 0px;
+}
+.docConta{
+    padding: 0px 30px 0px 30px;
+}
+.docRight{
+    /*width: 450px;*/
+    height: 550px;
+    background-color: #fff;
+    margin: 0px 20px 10px 920px;
+    overflow-y: auto;
+    border:1.5px solid #000;
+	padding:8px; border:1px solid #3399CC; border-top:5px solid #3399CC; background-color:#CFEEFA
+}
+.doc a{
+    color:#fff;
+    cursor:pointer;
+}
+.divBtn{
+    margin-top: 70px;
+    margin-left: 13px;
+    position: relative;
+}
+.calTitle {
+    text-align:left; color: #fff; height: 30px; font-size: 20px; background-color:#3470AC;width:100%;padding:3px;
+	font-family:"微软雅黑" !important;
+}
+.docTitle{
+    text-align: left; color: #fff; height: 30px; background-color:#3470AC; width:100%; padding:3px;
+	font-family:"微软雅黑" !important;
+}
+#divADocs{
+    background-color: #fff;
+}
+.metro .tile .brand .badge{
+    /*top: 0px !important;
+    right: 0px !important;*/
+}
+.clockColor{
+     text-align: center; color:#000; background-color:#3470AC
+ }
+.flat{
+    width: 400px;
+    height: auto;
+}
+.scolltimeevent{
+    margin-top: -20px;
+}
+ul:nth-child(1) {
+/*margin-left: 500px;*/
+}
+.liIndex {
+    line-height:100px !important;
+    list-style:none;
+    color:green;
+}
+/**********  FlowChat ************/
+
+.node {
+	width: 70px;
+	text-align: center;
+	vertical-align: middle;
+	border: 1px solid #fff;
+}
+
+.mover {
+	border: 1px solid #ddd;
+	background-color: #ddd;
+}
+
+.selected {
+	background-color: #ddd;
+}
+
+#myflow_props th {
+	letter-spacing: 2px;
+	text-align: left;
+	padding: 6px;
+	background: #ddd;
+}
+
+#myflow_props td {
+	background: #fff;
+	padding: 6px;
+}
+
+#pointer {
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#path {
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#task {
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#state {
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#myflow_tools {
+    left: 10px;
+    /*position: relative;*/
+    width: 80px;
+    background-color: #fff; 
+    cursor:default; 
+    padding: 3px;
+    float: left;
+}
+#myflow{
+    float: left;
+    width:70%;
+}
+
+.mod {
+    padding-top: 20px;
+    left: 50px;
+    width: 100px;
+    height: 80px;
+    position: relative;
+    background-color: #4390DF;
+    text-align: center;
+    color: #fff;
+    margin-top: 50px;
+    font-weight: bold;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+}
+.Fleft{
+    width:25%;
+    height:535px;
+    float:left;
+    margin: 10px 0px 10px 0px;
+}
+.mod:hover {
+    border:1px solid #fff;
+}
+.spName{
+    font-size:12px;
+    color: #eee;
+}
+span:hover {
+    cursor:pointer;
+    /*text-decoration:underline;*/
+}
+
+.metro .window.flat .caption .btn-close {
+    right: -40px;
+}
+.metro .window.flat .caption .btn-close:hover {
+    background-color: #fff;
+}
+.divCon{
+    width: 120px;
+    left: 70px;
+    top: -30px;
+    position: relative;
+    background-color: gold;
+    display:none;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    z-index:1000;
+}
+.divCon i:hover {
+    cursor:pointer;
+}
+
+ 
+/*  raphael  */
+/************************ GateWay  *****************************/
+.divTop {
+    height:200px;
+    padding: 10px 0px;
+}
+.fontMap{
+    font-size: 70px !important;
+    cursor:pointer;
+    padding-top:50px;
+}
+.metro .tile.double-vertical {
+height: 335px;
+}
+table.bordered {
+ border-top: 0px !important; 
+}
+
+.clsTile {
+    width: 29.5% !important;
+    height: 120px !important;
+}
+.ccls{
+    position:relative;
+    padding: 0px 0px 10px 0px;
+    background-color: #fff;
+    height: 180px;
+    /*overflow:auto;*/
+}
+.ccls .tile{
+   color:#000;
+   top:10px;
+}
+.metro .bg-cyan {
+    background-color: #fff !important;
+    border: 1px solid #888;
+}
+#divADocs .list-subtitle{
+    color:#333 !important;
+}
+.list-subtitle{
+    font-size: 12px;
+    display:block;
+    /*width:300px;*/
+    word-break:keep-all;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;/*文字溢出显示省略号*/
+	color:#555;
+}
+.gLeft{
+    float:left;
+    width:36%;
+}
+
+.gCenter{
+    float:left;
+    width:25%;
+    margin-left: 10px;
+    position: relative;
+}
+.gRight{
+     float:left;
+     width: 36.8%;
+     position: relative;
+     margin-left: 10px;
+}
+    .gRight .panel .panel-header {
+        background-color: #3470AC !important;
+        color: #fff;
+        font-family: "微软雅黑";
+    }
+.gRBottom{
+    font-size: 60px; 
+    /*background: #900098;*/
+    padding-top: 20px;
+}
+.panel-header{
+    cursor:pointer !important;
+}
+#divNews h3,#divNews h6,#divNotice h3,#divNotice h6{
+    text-align:center;
+}
+#divNews h6,#divNotice h6 {
+    font-size:12pt;
+}
+.divContent {
+    font-size:18px;
+    line-height:30px;
+    background-color:#ffffff;
+	border:2px solid #b8e5e5;
+}
+.planList .bgHead, .hrList .bgHead, .bidList .bgHead {
+    background-color:#666 !important;
+}
+.planList .fgColor {
+    color: #60a917 !important;
+}
+.divZZJG{
+    height:760px;
+}
+/**8********************** Mdrive *******************************/
+.indexDiv{
+    margin: 100px 0px 0px 180px;
+    text-align: center;
+}
+
+.indexDiv a.hover{border:9px solid #ccc}
+
+
+.mLeft {
+    float:left;
+    width:30%;
+}
+.mCenter {
+    float:left;
+    width:30%;
+    margin-left: 10px;
+    position: relative;
+}
+.wd77{
+    width:77%;
+    height:120px;
+}
+.mRight {
+    float: right;
+    width: 23.6%;
+    position: relative;
+    margin: -510px 0 0 0;
+    /*background-color: #eee;*/
+    height: 510px;
+}
+    .mRight .span2 {
+        width:47.5% !important;
+    }
+    .mRight .span2 .icon{
+        background-color:#F08035 !important;
+    }
+.Decision{
+    float:right;
+    /*background-color:#91947E;*/
+    height:100%;
+    width: 16%;
+    padding-left: 10px;
+    margin-right: 3px;
+    /*border-left: 1px dotted #292526;*/
+}
+.clsPage{
+    font-size: 60px !important;
+    cursor:pointer;
+}
+.metro .image-button.image-left {
+    padding-left: 40px !important;
+}
+.Thing {
+     width: 77%;
+     /*padding-left: 5px; */ 
+     height: 380px; 
+     overflow: hidden;
+     margin-top: -5px;
+}
+.tile li{
+    color: #000 !important;
+}
+#divZD ul li{
+    line-height: 30px;
+    list-style: none;
+}
+#divZD{
+    float: right; width: 47%; margin-bottom:20px;
+}
+.btnCls{
+    font-size: 30px !important; background: red;  padding: 7px; border-radius: 50%;margin-top: 10px;
+}
+.metro ul li:hover{
+    line-height:20px;
+    cursor:pointer;
+    /*text-decoration:underline;*/
+}
+.metro .calendarPerson ul li:hover{
+    line-height:20px !important;
+    /*text-decoration:underline;*/
+}
+.tHead{
+    font-size: 20px;
+    color: blue;
+    font-weight: bold;
+	color:#fff;
+    padding-bottom:15px;
+    background-color:#3470AC;
+}
+.bg-sp{
+    background-color:#3470AC;
+}
+.bg-sp td{
+    color:#fff;
+}
+.tHead:hover{
+    cursor:pointer;
+}
+#tblPro{
+    width:80%;
+    border:2px solid #000 !important;
+}
+#tblPro .tdlp{
+    padding: 20px 0 0 20px;
+}
+#tblPro .tdrp{
+    padding: 20px 20px 0 0;
+}
+#tblPro .tdbp{
+    padding: 20px 20px 15px 0;
+}
+.mRight .span2 .gRBottom {
+    padding-top: 30px;
+}
+
+.alignR {
+    text-align:right;
+}
+.alignCt{
+    text-align:center;
+}
+
+.txtDisabled{
+    min-height: 30px !important;
+}
+.mgRight0{
+    margin-right: 0px !important;
+}
+.esList .progress-bar{
+    width: 60%;
+}
+/********************************************/
+.page {
+    width: 100%;
+    margin: auto;
+    background-color: #fff;
+}
+.gaosu .row {
+    margin-top: 0!important;
+}
+.gaosu .functionlist {
+    padding: 60px 40px 20px 40px;
+    border: none;
+    position: relative;
+    margin: 30px 50px;
+    min-height: 100px;
+}
+
+    .gaosu .functionlist .function {
+        cursor:pointer;
+    }
+    .gaosu .functionlist .image-container {
+        margin: 5px;
+        display: inline-block;
+    }
+        .gaosu .functionlist .image-container .overlay,
+        .gaosu .functionlist .image-container .overlay-fluid {
+            font-size: 16pt;
+            text-align:center;
+        }
+.wd170 {
+    width:31.5% !important;
+    height: 160px !important;
+}
+.wd85{
+    width:15%!important;
+    height: 75px!important;
+}
+.wd85 .icon [class*='icon-'] {
+    font-size: 1.5rem!important;
+}
+.wd85 .tile-status .boldCls{
+    font-size: .8rem!important;
+}
+.pworkLeft{
+    width:66%;
+    float:left;
+}
+.pdList{
+    padding: 5px 10px;
+    /*border-bottom: 1px dotted #26EECE;*/
+    color: blue;
+}
+.titleRtop{
+    font-size: 20px; 
+    margin-bottom: 10px;
+    height: 310px !important;
+}
+
+.divRicon{
+    float: right;
+}
+.tile1:hover{
+   border:0px !important;
+}
+.bgCls{
+    background-color:lightblue !important;
+    height:100%;
+    width:100% !important;
+    text-align: center;
+}
+.fluidH{
+    height:auto !important;
+}
+.font100{
+    font-size: 100px !important;
+}
+.header1{
+    height: 40px;
+    font-size: 18px;
+    padding: 10px 1px;
+    display: block;
+    width: 100%;
+    word-break: keep-all;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.mgTop2{
+    margin-top: 20px;
+}
+.bandr{
+    width: 70px;
+    padding: 5px;
+    text-align: center;
+    margin: 0 0 5px 64% !important;
+    /*background-color: #1E7145 !important;*/
+}
+.img1{
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin-right: 10px;
+    font-size: 55px !important;
+    color:#3470AC;
+}
+.pd5{
+    padding:5px;
+    font-size: 13px;
+    color:#333;
+}
+.ht250{
+    height:245px !important;
+}
+    .ht250 .edit {
+        margin:0 0 5px 0;
+    }
+    .ht250 .edit i {
+        color: #fff;
+    }
+    .ht250 .edit:hover i {
+        color: #ccc;
+    }
+
+.wh{
+    width:100% !important;
+    height:100% !important;
+}
+.divLC{
+    width: 95%; 
+    margin-left: 16px;
+    overflow-y:scroll; 
+    height:420px;
+}
+.divPro{
+    width: 95%; margin-left: 35px;
+}
+    .divPro .form td {
+        border: none;
+    }
+    .divPro .form{
+        padding-top:15px;
+    }
+    .divPro .form-header {
+        margin-bottom:0;
+    }
+    .divPro .form-txt {
+        width:60% !important;
+    }
+.boldCls{
+    font-weight: bold !important;
+    font-size: 16px !important;
+}
+.bold{
+    font-weight: bold !important;
+}
+.hideCls{
+    display:none;
+}
+.docCls{
+    width: 20%; font-weight: bold;
+}
+.divPro h2{
+    width:40%;
+}
+.topBtn{
+    float: right; margin-top: -40px;
+}
+.divLogin{
+    padding: 10% 31%;
+}
+.divLogin .iCls{
+    font-size:30px;
+    color:blue;
+}
+.divLogin table{
+   width:60%;
+}
+.divLogin a{
+    text-decoration: underline;
+    margin-left: 5%;
+    color: royalblue;
+}
+.docTitle:hover,.calTitle:hover{
+    cursor:pointer;
+}
+.metro .tab-control .frame {
+    padding: 10px;
+}
+.metro #_page_2 .imageContent {
+    height: 250px;
+    width: 32% !important;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 0px;
+}
+.metro #_page_1 .span4{
+    width:32% !important;
+    background-color: #E76703 !important;
+}
+.noCls li{
+    color:#fff !important;
+}
+.noCls li:hover{
+    text-decoration:none !important;
+    line-height: 20px !important;
+}
+.newList{
+     padding:10px 30px 0 30px;
+}
+.infoList{
+    padding:10px 30px 0 30px;
+}
+.hoverNoUnderline {
+    text-decoration:none !important;
+}
+.pd15{
+    padding:15px;
+}
+.pd20{
+    padding:20px !important;
+}
+.pdAll5{
+    padding:5px !important;
+}
+.newList .tile{
+    height:160px ;
+}
+ .newList .tile .panel-content{
+    color:#000 !important;
+}
+.newList .panel{
+    height: 100%;
+}
+.gLeft .panel .headetRight{
+    float: right; padding: 6px;
+}
+.esList{
+    padding:5px 30px 0 30px;
+}
+#tblWork .table i, #tblFLow table i{
+    font-size:25px;
+}
+.lh25{
+    line-height: 25px !important;
+}
+.lh15{
+    line-height: 15px !important;
+}
+.divGateContainer{
+    padding: 5px 0px 10px 10px;
+}
+.divDriveContainer{
+    padding: 10px 30px;
+}
+#divNoticeFirst .grid .span3,#divNoticeSecond .grid .span3{
+    margin: 0 0 0 10px !important;
+}
+#divNoticeFirst .grid .span3 .noticeDefine,#divNoticeSecond .grid .span3 .noticeDefine{
+    height:120px;
+    cursor:pointer;
+}
+.noticeDefine{
+    display: block;
+    min-width: 200px;
+    height: 100%;
+    position: relative;
+    background-color: #C3E9CA !important;
+    padding: 20px;
+    color: #000;
+}
+.divDate{
+    text-align: right; 
+    color: #000 !important; 
+    margin-top: 10px;
+}
+#divNotice{
+    padding:10px 20px;
+}
+.noticeTitle{
+    text-align: left; 
+    height:40px; 
+    background-color:green;
+    padding-top: 8px;
+    padding-right:5px;
+    cursor: pointer;
+}
+.noticeTitle span {
+        font-family: "微软雅黑";
+    }
+.divCalendar {
+    font-size: 20px; 
+    text-align: right; 
+    margin-top: 10px; 
+    height: 317px; 
+    border: 1px solid #eee; 
+}
+.Thing .divVetting{
+    float: left; width: 83%; padding:10px;
+}
+.Thing .divVetting .vetTitle{
+    font-weight: bold; font-size: 18px; height: 30px;
+}
+.Thing .tile.span6{
+    width: 48.5% !important;
+    background-color: #9DE2B1;
+}
+.metro .noticeList .grid .row{
+    margin-top: 10px ;
+}
+.metro .esList .listview .list{
+    width:100%;
+}
+.metro .esList .span5{
+    width:31.5% !important;
+	height:120px;
+}
+.pageWrapper{
+    width:100%;
+}
+ #slidePage {
+            position: absolute;
+            width: 1180px;
+            height: 450px;
+            overflow: hidden;
+        }
+
+        #slidePageWrapper {
+            /*width: 1180px;*/
+            height: 450px;
+            overflow: hidden;
+            position: relative;
+        }
+
+.slidePageContent {
+    float: left;
+    overflow: hidden;
+    width: 1180px;
+    height: 450px;
+    padding: 5px;
+}
+.metro .divTop .span4{
+    width: 24.2% !important;
+    height:180px;
+    text-align: center;
+}
+.planList{
+    padding:10px 20px;
+}
+.metro .dropdown-menu a:hover {
+    text-decoration:none !important;
+}
+.schedule{
+    padding:10px 20px;
+}
+.event-content-logo .wh39{
+    width:39px;
+    height:39px;
+    font-size:30px;
+}
+.fileList,.hrList,.bidList{
+    padding:10px 20px;
+}
+
+.fileList .grid .tile.double{
+    width:24% !important;
+} 
+.fileList .grid {
+    margin-left: 10px;
+}
+.fileList .grid .row{
+    margin-top:0px;
+}
+.btnSearchMargin{
+    margin:0 0 0 -28px !important;
+}
+.hrList .inputSelect{
+    float:left;
+     width:10% !important;
+}
+.hrList .inputSearch{
+    float:left; 
+    width:20% !important;
+    margin-left:10px;
+}
+.newList .span4{
+    width:48%!important;
+    background-color: #C3E9CA;
+}
+.newList #slidePage {
+            width: 1280px;
+            height: 480px;
+            left:40px !important;
+        }
+
+       .newList #slidePageWrapper {
+            height: 480px;
+            overflow: hidden;
+        }
+
+.newList .slidePageContent {
+    width: 1280px;
+    height: 480px;
+}
+.noticeList #slidePage {
+            height: 400px;
+        }
+
+       .noticeList #slidePageWrapper {
+            height: 400px;
+            overflow: hidden;
+        }
+
+.noticeList .slidePageContent {
+    height: 400px;
+}
+.esList .sysPage{
+   float: left;
+    width: 100%;
+    margin-top: 190px;
+    margin-left: -50px;
+    position: relative;
+    filter: alpha(opacity=80);
+    -moz-opacity: 0.8;
+    opacity: 0.8;
+}
+.esList #pagePre{
+    float: left; 
+    position: absolute;
+    margin-left: -30px; 
+    margin-top: 200px;
+    background-color: #eee;
+}
+.esList #pageNext{
+    float: right; 
+    left: 1220px;
+    margin-top: 200px;
+    position: absolute;
+    background-color: #eee;
+}
+.gRight .tag{
+    width: 31.5%; 
+    height: 98.5px;
+}
+.gRight .divMemo{
+   margin-top: 10px; 
+   /*margin-right: -10px;*/
+   font-size:20px;
+}
+.gRight .divMemo .noticeTitle{
+    margin-bottom:10px;
+}
+.metro .functionlist .span6{
+    width: 40% !important;
+}
+.metro .functionlist .offset3:not(:first-child) {
+    margin-left: 21% !important;
+}
+.metro .docConta .span3 {
+    width: 31% !important;
+    background-color: #fff;
+    border:1px solid #eee;
+    /*background-color: #C3E9CA;*/
+}.metro .docConta .span3:hover {
+     outline:1.5px solid #ccc !important;
+}
+.esList .listview .bg1{
+    background-color: #C3E9CA !important;
+}
+    .esList .listview .bg1 i {
+        background-color: #C3E9CA !important;
+		color: #fff;
+    }
+.esList .listview .bg2{
+    background-color: #6d8764 !important;
+}
+    .esList .listview .bg2 i {
+        background-color: #60a917 !important;
+    }
+.esList .listview .bg3{
+    background-color: #f0a30a !important;
+}
+    .esList .listview .bg3 i {
+        background-color: #fa6800 !important;
+    }
+.esList .listview .bg4{
+    background-color: #e3c800 !important;
+}
+    .esList .listview .bg4 i {
+        background-color: #bf5a15 !important;
+    }
+.esList .listview .bg5{
+    background-color: #7ad61d !important;
+}
+    .esList .listview .bg5 i {
+        background-color: #60a917 !important;
+    }
+.esList .listview .bg6{
+    background-color: #dc4fad !important;
+}
+    .esList .listview .bg6 i {
+        background-color: #d80073 !important;
+    }
+.gLeft .tile-content {
+    /*background-color: #eee;*/
+}
+    .gLeft .tile-content .panel .bg1 {
+        background-color: #3470AC !important;
+        color:#fff;
+		font-family: "微软雅黑";
+    }
+    .gLeft .tile-content .panel .bg2 {
+        background-color: #3470AC !important;
+        color:#fff;
+		font-family: "微软雅黑";
+    }
+    .gLeft .tile-content .panel .bg3 {
+        background-color: #3470AC !important;
+        color:#fff;
+		font-family: "微软雅黑";
+    }
+.clsTile span{
+    /*color:#fff;*/
+}
+.clsTile .spanContent{
+    color:#000 !important;
+}
+
+.docConta .span3 .pd5 span{
+    color:#000;
+}
+.divGateContainer .gLeft .panel-content{
+    line-height:25px; 
+    font-size: 15px;
+}
+    .divGateContainer .gLeft .panel-content h5 {
+        color:#2c4358;
+    }
+.newList .span4 .panel-header{
+    display: block;
+    width: 100%;
+    word-break: keep-all;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.infoList .span3{
+    width: 23.4% !important;
+	height:160px;
+}
+#bodyDrive .metro .window.flat .caption{
+    background-color: rgb(61, 46, 168);
+}
+#bodyDrive .metro .window.flat .caption .btn-close{
+    right:0px;
+}
+.divLC #tblList td{
+    vertical-align:middle;
+}
+#divRepeatFlows .bg1,#divAllDocuments .bg1,#divLaunchFlows .bg1,#divIngFlows .bg1,#divDownDocuments .bg1{
+    /*background-color: #C3E9CA !important;*/
+    border-color: #ddd !important;
+}
+#divRepeatFlows .list .list-content .icon,#divAllDocuments .list .list-content .icon,#divLaunchFlows .list .list-content .icon,#divIngFlows .list .list-content .icon,#divDownDocuments .list .list-content .icon{
+    /*background-color: #4F5ACE;*/
+    background-color: #fff !important;
+    color: #3470AC;
+}
+
+.listDivColor .bg1 {
+    border-color: #ddd !important;
+}
+.listDivColor .list .list-content .icon {
+    background-color: #fff !important;
+    color: #3470AC;
+}
+.listDivClass {
+    width: 100%;
+    height: 385px;
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
+    -webkit-box-sizing:border-box;
+    display:block;
+}
+    .listDivClass .dataTitle {
+        float: left;
+        width: 15%;
+    }
+    .listDivClass .dataContent{
+        float: left; margin: 0 0 0 2%; width:30%;
+    }
+    .listDivClass .dataStatus{
+        float: left; margin: 0 0 0 2%; width:30%;
+    }
+    .listDivClass .dataDate {
+        float: right;
+    }
+
+.docConta #divRepeatFlows,.docConta #divAllDocuments, .docConta #divLaunchFlows, .docConta #divGpDbDispatchs, .docConta #divUpFlows, .docConta #divEndFlows, .docConta #divIngFlows, .docConta #divDownDocuments{
+    width: 100%;
+    height: 440px;
+    overflow-y:auto;
+    overflow-x:hidden;
+    -webkit-overflow-scrolling: touch;
+    -webkit-box-sizing:border-box;
+    display:block;
+}
+    .docConta #divRepeatFlows .dataTitle{
+        float: left;
+        width: 20%;
+    }
+    .docConta #divRepeatFlows .dataContent{
+        float: left; margin: 0 0 0 3%; width:28%;
+    }
+    .docConta #divRepeatFlows .dataStatus{
+        float: left; margin: 0 0 0 3%; width:12%;
+    }
+    .docConta #divRepeatFlows .dataDate{
+        float: right; 
+        /*width:20%;*/
+    }
+    .docConta #divAllDocuments .dataTitle{
+        float: left;
+        width: 20%;
+    }
+    .docConta #divAllDocuments .dataContent{
+        float: left; margin: 0 0 0 3%; width:28%;
+    }
+    .docConta #divAllDocuments .dataStatus{
+        float: left; margin: 0 0 0 3%; width:12%;
+    }
+    .docConta #divAllDocuments .dataDate{
+        float: right; 
+        /*width:20%;*/
+    }
+     .docConta #divDownDocuments .dataTitle{
+        float: left;
+        width: 20%;
+    }
+    .docConta #divDownDocuments .dataContent{
+        float: left; margin: 0 0 0 3%; width:28%;
+    }
+    .docConta #divDownDocuments .dataStatus{
+        float: left; margin: 0 0 0 3%; width:12%;
+    }
+    .docConta #divDownDocuments .dataDate{
+        float: right; 
+        /*width:20%;*/
+    }
+    .docConta #divIngFlows .dataTitle {
+        float: left;
+        width: 20%;
+    }
+     .docConta #divIngFlows .dataContent {
+        float: left; margin: 0 0 0 3%; width:28%;
+    }
+    .docConta #divIngFlows .dataStatus{
+        float: left; margin: 0 0 0 3%; width:10%;
+    }
+     .docConta #divIngFlows .dataDate {
+        float: right; 
+    }
+    .docConta #divLaunchFlows .dataTitle {
+        float: left;
+        width: 20%;
+    }
+     .docConta #divLaunchFlows .dataContent {
+        float: left; margin: 0 0 0 3%; width:28%;
+    }
+    .docConta #divLaunchFlows .dataStatus{
+        float: left; margin: 0 0 0 3%; width:10%;
+    }
+     .docConta #divLaunchFlows .dataDate {
+        float: right; 
+    }
+    .docConta #divGpDbDispatchs .dataTitle {
+        float: left;
+        width: 20%;
+    }
+     .docConta #divGpDbDispatchs .dataContent {
+        float: left; margin: 0 0 0 3%; width:28%;
+    }
+    .docConta #divGpDbDispatchs .dataStatus{
+        float: left; margin: 0 0 0 3%; width:10%;
+    }
+     .docConta #divGpDbDispatchs .dataDate {
+        float: right; 
+    }
+    .docConta #divUpFlows .dataTitle {
+        float: left;
+        width: 20%;
+    }
+     .docConta #divUpFlows .dataContent {
+        float: left; margin: 0 0 0 3%; width:23%;
+    }
+    .docConta #divUpFlows .dataStatus{
+        float: left; margin: 0 0 0 3%; width:20%;
+    }
+     .docConta #divUpFlows .dataDate {
+        float: right; 
+    }
+    .docConta #divEndFlows .dataTitle {
+        float: left;
+        width: 20%;
+    }
+     .docConta #divEndFlows .dataContent {
+        float: left; margin: 0 0 0 3%; width:23%;
+    }
+    .docConta #divEndFlows .dataStatus{
+        float: left; margin: 0 0 0 3%; width:20%;
+    }
+     .docConta #divEndFlows .dataDate {
+        float: right; 
+    }
+.metro .docConta .listview .list,.myWorkContainer .listview .list, .divWorkDiaryContainer .listview .list{
+    width:98%;
+}
+.myWorkContainer,.divWorkDiaryContainer {
+    padding: 0px 30px 0px 30px;
+}
+.myWorkContainer #divAllWork, .divWorkDiaryContainer #divWorkDiary{
+    width:100%;
+    height:440px;
+    overflow:scroll;
+}
+    .myWorkContainer .dataTitle,.divWorkDiaryContainer .dataTitle {
+        float: left;
+        width: 45%;
+    }
+    .myWorkContainer  .dataContent ,.divWorkDiaryContainer .dataContent{
+        float: left; margin: 0 0 0 10px; width:30%;
+    }
+    .myWorkContainer  .dataStatus,.divWorkDiaryContainer .dataStatus{
+        float: left; margin: 0 0 0 10px; width:10%;
+    }
+    .myWorkContainer  .dataDate,.divWorkDiaryContainer .dataDate{
+        float: right; 
+        /*width:20%;*/
+    }
+#divAllWork .bg1,#ingWork .bg1,#agentWork .bg1,#finishWork .bg1 {
+    /*background-color: #C3E9CA !important*/
+}
+.myWorkContainer .listview .list .icon {
+    background-color: #fff !important;
+    color: #3470AC !important;
+}
+.myWorkContainer #ingWork,.myWorkContainer #agentWork,.myWorkContainer #finishWork{
+    width:100%;
+    height:450px;
+    overflow-x:hidden;
+	overflow-y:auto;
+	display:block;
+}
+#divWorkDiary .bg1 {
+    background-color: #fff !important;
+    border-color: #ddd !important;
+}
+.divWorkDiaryContainer .listview .list .icon{
+    background-color: #fff !important;
+    color: #3470AC;
+}
+
+
+/******************************** 滑动分页 开始 ***************************/
+ .iosSlider,.iosSlider2{
+            position: relative;
+            top: 0;
+            left: 0;
+            overflow: hidden;
+            width: 95%;
+            height: 480px;
+        }
+
+            .iosSlider .prevButton,.iosSlider2 .prevButton2 {
+                position: absolute;
+                top: 45%;
+                left: 0;
+                width: 20px;
+                height: 40px;
+                background: url(../images/slider-buttons.png) no-repeat 0 0;
+                z-index: 2;
+            }
+
+            .iosSlider .nextButton ,.iosSlider2 .nextButton2 {
+                position: absolute;
+                top:  45%;
+                right: 0;
+                width: 20px;
+                height: 40px;
+                background: url(../images/slider-buttons.png) no-repeat 100% 0;
+                z-index: 2;
+            }
+
+            .iosSlider .slider,.iosSlider2 .slider2 {
+                width: 100%;
+                height: 100%;
+            }
+
+                .iosSlider .slider .item,.iosSlider2 .slider2 .item {
+                    position: relative;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    margin: 0 40px 0 60px !important;
+                    
+                }
+
+
+.Thing .iosSlider {
+    position: relative;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 480px;
+}
+    .Thing .iosSlider .slider .item {
+        margin: 0 !important;
+    }  
+.docConta .iosSlider,.docConta .iosSlider2 {
+    position: relative;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    width: 99.5%;
+    height: 515px;
+}  
+
+.arrow-left {
+    /*background: url(../img/arrows.png) no-repeat left top;*/
+    position: absolute;
+    /*left: 10px;*/
+    top: 50%;
+    margin-top: -15px;
+    width: 17px;
+    height: 30px;
+    font-size: 35px !important;
+}
+
+.arrow-right{
+    /*background: url(../img/arrows.png) no-repeat left bottom;*/
+    position: absolute;
+    right: 50px;
+    top: 50%;
+    margin-top: -15px;
+    width: 17px;
+    height: 30px;
+    font-size: 35px !important;
+} 
+.swiper1{
+    width: 93%  !important;
+    height: 505px !important;
+    padding-left:15px;
+	margin: 0 0 0 4% !important;
+}
+.swiper2 {
+    width: 100%  !important;
+    height: 450px !important;
+    margin:0px;
+}
+/******************************** 滑动分页 结束 ***************************/
+
+.noticeContainer,.noticeContainerNew {
+   padding: 10px 30px 0 30px;
+}
+    .noticeContainer .span3 {
+        width: 23.4% !important;
+    }
+.documentContainer {
+    padding: 0px 30px 0px 30px;
+}
+.documentContainer .listview{
+    width:100%;
+    height:440px;
+    overflow:scroll;
+}
+    .documentContainer .listview .list{
+        width:98%;
+    }
+    .documentContainer .dataTitle {
+        float: left;
+        width: 20%;
+    }
+    .documentContainer  .dataContent {
+        float: left; margin: 0 0 0 5%; width:30%;
+    }
+    .documentContainer  .dataStatus{
+        float: left; margin: 0 0 0 5%; width:10%;
+    }
+    .documentContainer  .dataDate{
+        float: right; 
+        /*width:20%;*/
+    }
+.documentContainer .listview .list .icon{
+    /*background-color: #C3E9CA !important;*/
+    background-color: #fff !important;
+    color: #3470AC;
+}
+.documentContainer .bg1 {
+    /*background-color: #C3E9CA !important*/
+   border-color: #ddd !important;
+}
+.wd50 {
+    width:50% !important;
+}
+
+.noticeContainer .listview {
+    width: 100%;
+    height: 440px;
+    overflow: scroll;
+    -webkit-overflow-scrolling:touch;
+    -webkit-box-sizing:border-box;
+    display:block;
+}
+    .noticeContainer .listview .list{
+        width: 98%;
+        border-color: #ddd !important;
+    }
+    .noticeContainer .dataTitle {
+        float: left;
+        width: 20%;
+    }
+    .noticeContainer .dataContent {
+        float: left; margin: 0 0 0 5%; width:50%;
+    }
+    /*.noticeContainer  .dataStatus{
+        float: left; margin: 0 0 0 10%; width:10%;
+    }*/
+    .noticeContainer .dataDate{
+        float: right; 
+        /*width:20%;*/
+    }
+.noticeContainer .listview .list .icon{
+    background-color: #fff !important;
+}
+.noticeContainer .bg1 {
+    background-color: #fff !important;
+    color: #000 !important;
+}
+.divFlow{
+    padding:20px 50px;
+}
+.list-content .checkbox{
+    float:left;
+    margin-top:10px;
+}
+.metro .window.flat .caption{
+    background-color: #6badf6;
+}
+    .metro .window.flat .caption .btn-close {
+        right: 0px;
+    }
+.formContainer{
+    padding:20px 50px;
+}
+    .formContainer .listview {
+        width: 100%;
+        height: 440px;
+        overflow: auto;
+    }
+        .formContainer .listview .list {
+            width: 99%;
+        }
+    .formContainer .dataTitle {
+        float: left;
+        width: 25%;
+    }
+    .formContainer .dataType {
+        float: left; margin: 0 0 0 5%; width:15%;
+    }
+    .formContainer  .dataAuthor{
+        float: left; margin: 0 0 0 5%; width:15%;
+    }
+    .formContainer .dataDate{
+        float: left; 
+        margin: 0 0 0 5%;
+        width:15%;
+    }
+    .formContainer .dataForm{
+        float: right; 
+    }
+.formContainer .listview .list .icon{
+    background-color: #F18D0E !important;
+}
+.formContainer .bg1 {
+    background-color: #ddd !important;
+}
+#TopContacts, #DepartmentHead, #OrganizationStructure, #UserDefined {
+    overflow: auto; height: 260px;
+}
+.bottomDiv{
+    position:absolute;
+    bottom:0px;
+    right:0px;
+}
+.tab-control{
+    height:350px;
+}
+
+.wordMenu{
+    float:left;
+    width:270px;
+}
+.wordDiv{
+    float:left;
+    margin-left:5%;
+    width:60%;
+}
+.tipspan {
+    font-size: 10px;
+    position: relative;
+    top: 30px;
+}
+.imgWord {
+    height: 40%;
+    float: left;
+    margin-top: 10px;
+}
+.commentWord{
+    float:left;
+    margin-left:10px;
+    margin-top: 10px;
+}
+    .commentWord .spancom {
+        font-size: 10px;
+    }
+#pdfContent{
+    height:600px;
+}
+.metro .esList .listview .list{
+    margin-right: 10px;
+}
+.divMemo .tile-status {
+    /*text-align:right;*/
+    margin-left: 10px !important;
+}
+    .divMemo .tile-status span {
+        font-family: "微软雅黑" !important;
+    }
+.swiper-scrollbar{height:10px;margin-top:10px;width:100%;border-radius:10px;position:relative;-ms-touch-action:none;background:rgba(0,0,0,0.1)}
+.swiper-scrollbar-drag{
+height:100%;width:100%;position:relative;background:rgba(0,0,0,0.5);border-radius:10px;}
+.swiper-scrollbar-cursor-drag{cursor:move;}
+.sysIcon {
+    width: 30% !important;
+    height: 95% !important;
+    font-size: 70px !important;
+}
+.esList .list .list-content{
+    height:100%;
+}
+.esList .list .list-content .sysdivContent{
+    line-height: 50px;
+}
+.newList .brand{
+    text-align:right; 
+    padding-right:10px;
+}
+.newList .brand span{
+    color:#000;
+}
+
+.newList h2,.esList h2,.infoList h2{
+    float:left;
+}
+.displayStyle {
+    float: right;
+    width: 10%;
+    font-size: 30px;
+    margin: 20px 20px 0 0;
+    color: #555;
+    cursor: pointer;
+}
+.displayStyle1{
+     float: right;
+    width: 10%;
+    font-size: 30px;
+    margin: -5px 0 0 0;
+    color: #555;
+    cursor: pointer;
+}
+.listDiv .list{
+    width:98% !important;
+}
+.listDiv .dataTitle{
+    width:20%;
+    float:left;
+}
+.listDiv .dataContent {
+    float: left;
+    margin: 0 0 0 5%;
+    width: 50%;
+}
+.listDiv .dataDate{
+    float: right;
+}
+.listDiv #listContent{
+    padding-top:10px;
+    /*height:550px;*/
+    width:100%;
+    overflow:auto;
+}
+
+    .listDiv #listContent .list {
+        /*background-color: #C3E9CA;*/
+        border-color: #ddd !important;
+    }
+.listDiv .list .icon {
+    background-color: #fff !important;
+    color: #3470AC;
+}
+.esList #listContent{
+    color:#fff;
+}
+.noticeContainerNew .tile{
+    height:240px;
+    width:32% !important;
+    background-color: #fff;
+}
+.noticeContainer .tile{
+    height:150px;
+    width:32% !important;
+    background-color: #fff;
+}
+.noticeContainer .brand,.noticeContainerNew .brand{
+    text-align:right; 
+    padding-right:10px;
+}
+.noticeContainer .brand span,.noticeContainerNew .brand span{
+    color:#999;
+    font-family: 'Microsoft YaHei UI';
+    font-size:0.8em;
+}
+.noticeContainer .noticeIcon{
+    float: left; color: #3470AC; font-size:70px;
+}
+.noticeContainerNew .noticeIcon{
+    float: left; color: #3470AC; font-size:75px;
+}
+.noticeContainer .panel-content,.noticeContainerNew  .panel-content{
+    /*float: left; */
+    width: 90% !important;
+    color:#000;
+}
+h2,h3,h4,h5,h6{
+    font-family: "微软雅黑" !important;
+}
+.metro .listview .list .list-content .list-remark{
+    color:#888482;
+}
+.esList .listview .list .list-content .list-remark{
+    color:#888482;
+}
+.esList .list-subtitle{
+    color:#555;
+}
+.gLeft .panel .panel-content{
+    padding:10px 10px 10px 0 !important;
+}
+.gRight .list-content{
+    margin: -20px 0 0 10px !important;
+}
+.gRight .list-subtitle{
+    float: right; width: 30%; text-align: right;
+}
+.gLeft .double-vertical {
+    width: 100% !important;
+    height: 317px !important;
+}
+.metro .calendar .calendar-actions td, .metro .calendar .calendar-actions th{
+    padding:5px 10px 0 10px;
+}
+.divCalendar table.bordered{
+    border:none !important;
+}
+.divCalendar tr.calendar-actions{
+    display:none !important;
+}
+.dataTitle{
+    color:#000;
+}
+.userComponent{
+    padding: 0px 100px;
+}
+
+.divcomponent {
+    background-color: green;
+    width: 210px;
+    height: 70px;
+    padding: 5px 0 0 0;
+}
+.logocpt {
+    float: left;
+    width: 50px;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+}
+.logocpt div{
+    font-size: 12px;
+    margin-top:10px;
+}
+.logocpt i:hover{
+    cursor:pointer;
+    /*border:2px #fff solid;*/
+    font-weight:bolder;
+}
+.logocpt div:hover{
+    cursor:pointer;
+    font-weight:bolder;
+}
+.divFlowchart{
+    padding: 0px 100px;
+}
+.metro .navigation-bar, .metro .navbar{
+    background-color:#3470AC;
+}
+#calendar {
+    width: 100%;
+    height: 60%;
+    margin: 0 auto;
+}
+    #calendar table tbody tr td {
+        border-right: none;
+    }
+    #calendar h2 {
+        color: #666;
+        font-size: 30px;
+        margin-top: 5px;
+    }
+/*.fc-state-down, .fc-state-active{
+    background-color: #F08035;
+    color: #fff;
+}
+.fc-state-default {
+    background-color: #F08035;
+    background-image: -moz-linear-gradient(top, #F08035, #F08035);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#F08E4D), to(#F08035));
+    background-image: -webkit-linear-gradient(top, #F08035, #F08035);
+    background-image: -o-linear-gradient(top, #F08035, #F08035);
+    background-image: linear-gradient(to bottom, #F08035, #F08035);
+    background-repeat: repeat-x;
+    border-color: #fff #fff #fff;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    color: #fff;
+   
+}*/
+ #calendar thead .fc-first {
+      background-color: #3470AC !important;
+}
+ #calendar thead th{
+     color:#fff;
+     font-weight:bolder;
+ }
+#calendar .fc-event {
+    border: 1px solid #3470AC;
+    background-color: #3470AC;
+}
+.selUser {
+    float: right;
+    margin: -30px 30px 0 0;
+}
+.divContactTip{
+    position:absolute;
+    z-index:9999;
+    left:300px;
+    top:200px;
+}
+
+
+.tip-yellow {
+	z-index:1000;
+	text-align:left;
+	border:1px solid #939393;
+	padding:7px;
+	min-width:50px;
+	max-width:530px;
+	color:#8c3901;
+	background-color:#fef9d9;
+	background-image:url(tip-yellow.png); /* bgImageFrameSize >= 10 should work fine */
+	/**
+	 * - If you set a background-image, border/padding/background-color will be ingnored.
+	 *   You can set any padding to .tip-inner instead if you need.
+	 * - If you want a tiled background-image and border/padding for the tip,
+	 *   set the background-image to .tip-inner instead.
+	 */
+}
+.tip-yellow .tip-inner {
+	font:bold 13px/18px 'trebuchet ms',arial,helvetica,sans-serif;
+	margin-top:-2px;
+	padding:0 3px 1px 3px;
+}
+
+/* Configure an arrow image - the script will automatically position it on the correct side of the tip */
+.tip-yellow .tip-arrow-top {
+	margin-top:-7px;
+	margin-left:15px;
+	top:0;
+	left:0;
+	width:16px;
+	height:10px;
+	background:url(tip-yellow_arrows.png) no-repeat;
+}
+.tip-yellow .tip-arrow-right {
+	margin-top:-9px; /* approx. half the height to center it */
+	margin-left:-4px;
+	top:50%;
+	left:100%;
+	width:10px;
+	height:20px;
+	background:url(tip-yellow_arrows.png) no-repeat -16px 0;
+}
+.tip-yellow .tip-arrow-bottom {
+	margin-top:-6px;
+	margin-left:15px;
+	top:100%;
+	left:0;
+	width:16px;
+	height:13px;
+	background:url(tip-yellow_arrows.png) no-repeat -32px 0;
+}
+.tip-yellow .tip-arrow-left {
+	margin-top:-9px; /* approx. half the height to center it */
+	margin-left:-6px;
+	top:50%;
+	left:0;
+	width:10px;
+	height:20px;
+	background:url(tip-yellow_arrows.png) no-repeat -48px 0;
+}
+.pworkLeft .wd85 .icon,
+.pworkLeft .wd170 .icon{
+    background-color: #3470AC !important
+}
+.pworkLeft .wd170 .icon i{
+    color:#fff !important
+}
+.pworkLeft .wd170 .name{
+    color:#fff !important
+}
+.docConta .ht250 .panel-header{
+    background-color: #3470AC !important;
+}
+.metro .listview .list.selected{
+    background:#faf9f9;
+}
+.metro .listview .list.selected:after{
+    border-top: 28px solid #EC6C16;
+}
+.gridDiv .span4 .panel-header{
+    background-color: #3470AC;
+}
+.gridDiv .panel-header{
+    font-family: 'Microsoft YaHei UI','Segoe UI Light_', 'Open Sans Light', Verdana, Arial, Helvetica, sans-serif!important;
+}
+.metro .calendar .calendar-header{
+    background-color: #A3ADB1;
+}
+#createvent .calendar-dropdown {
+height:242px;width:240px
+}
+.divTop .span4{
+    background-color:#3470AC
+}
+.divMemo .tag .icon{
+    background-color: #3470AC !important;
+}
+.fileList .bg1{
+    background-color: #3470AC !important;
+}
+.Yahei{
+    font-family:"Microsoft YaHei UI"!important;
+}
+.Gray{
+    color: #666!important;
+}
+.LightGray{
+    color: #999!important;
+}
+.Remark{
+    font-size:0.8em!important;
+}
+.TextBold{
+    font-weight: bold!important;
+}
+.TextWidthThin{
+    font-weight:100!important;
+}
+/******************************************* Tooltip Start*************************************************/
+.tool-container {
+            background-color: #3470AC;
+            /*background: -webkit-gradient(linear, left top, left bottom, color-stop(14%, #ABE49D), color-stop(100%, #ABE49D));
+            background: -moz-linear-gradient(top, #d0cbcb 14%, #ABE49D 100%);
+            background: -ms-linear-gradient(top, #d0cbcb 14%,#ABE49D 100%);
+            background: linear-gradient(to bottom, #d0cbcb 14%,##ABE49D 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d0cbcb', endColorstr='#ABE49D',GradientType=0 );
+            background-size: 100% 100%;*/
+            border-radius: 3px;
+            box-shadow: 0px 0px 15px #000;
+            position: absolute;
+            width: 240px;
+        }
+    .tool-container a {
+        color: #fff !important;
+    }
+            .gradient,.tool-rounded{
+                top:30% !important;
+            }
+
+            .tool-container.tool-top, .tool-container.tool-bottom {
+                height: 50px;
+                border-bottom: 1px solid #beb8b8; /* #B1A9A9 */
+            }
+
+        .tool-items {
+            height: 100%;
+        }
+
+        .tool-top .tool-item, .tool-bottom .tool-item {
+            float: left;
+            border-right: 1px solid #e2dfdf;
+            border-left: 1px solid #9f9898;
+        }
+        .tool-left .tool-item, .tool-right .tool-item {
+            height: 50px;
+            border-top: 1px solid #e2dfdf;
+            border-bottom: 1px solid #9f9898;
+        }
+
+        .tool-item {
+            height: 100%;
+            display: block;
+            width: 80px;
+            text-align: center;
+            margin-top: 3px;
+        }
+/******************************************* Tooltip Begin*************************************************/
+.eventTitle{
+    /*float:left;*/ 
+    width:160px;
+    text-align:right;
+   font-family: "微软雅黑" !important;
+}
+.eventContent{
+    /*float:left;*/ 
+    color:#555;
+    width:200px;
+    font-family: "微软雅黑" !important;
+}
+
+.newContent{
+    /*float:left;*/
+    font-family:'Microsoft YaHei UI' !important;
+    color:#666;
+    font-size:1em;
+    /*width:60%;*/
+    margin-left:10px;
+    margin-right:-20px;
+
+}
+.colorOrange{
+    color:orange !important;
+}
+.colorBlue{
+    color:blue !important;
+}
+.colorGreen{
+    color:green !important;
+}
+.colorRed{
+    color:red !important;
+}
+.tdUsertip{
+    cursor:pointer;
+}
+
+.metro .button.info{
+    background-color: #3470AC !important;
+}
+
+.divCreateEvent{
+    font-family: "微软雅黑" !important;
+}
+.ceTitle{
+    float:left;
+    width:100px;
+    text-align:right;
+   font-family: "微软雅黑" !important;
+   margin-right:10px;
+}
+.callday{
+    font-family: "微软雅黑" !important;
+    margin:5px 0;
+}
+.pdt5{
+    padding:5px 0;
+}
+.dateInfo{
+    margin-left: 10px;
+    line-height: 25px;
+    font-family: "微软雅黑" !important;
+}
+    .dateInfo span {
+        font-family: "微软雅黑" !important;
+    }
+.endDate {
+    margin: -25px 0px 0 0px;
+    font-size: 14px;
+    float: right;
+}
+.txtTip{
+    width:30px; height:20px;
+}
+.dataName{
+    float: left; width: 20%; margin-top: 25px;
+}
+.dataPath{
+    float: left; width: 50%; margin-top: 5px;
+}
+    .dataPath .list-remark input[type=checkbox] {
+        width: 20px;
+        height: 20px;
+    }
+.bg-head{
+    background-color:#3470AC !important
+}
+    .bg-head td {
+        color: #fff;
+    }
+
+.prenode .bg1 {
+    border: 1px solid #ddd !important;
+    margin-bottom: 8px;
+    width: 98%;
+    /*height: 75px;*/
+    float: left;
+}
+.prenode .icon {
+    background: #fff;
+    color: #3470AC;
+    float: left;
+    width: 10%;
+    font-size: 35px;
+}
+table.hovered {
+    border-collapse: collapse !important;
+}
+.personFrom{
+    margin: 50px 100px;
+}
+.personFrom div.shadow{
+    /*text-align:center;
+    width:60%;*/
+    margin-bottom:50px;
+}
+.print{
+    width: 55px; 
+    float: right;
+    cursor:pointer
+}
+
+.metro .tab-control .tabs {
+    margin: 1rem 0 0 4rem !important;
+    height:33px;
+}
+    .metro .tab-control .tabs a:hover {
+        height: 33px;
+    }
+.sgw-title,
+.sgw-title:hover{
+    color: rgba(0,0,0,0.6)!important;
+}
+    .sgw-content{
+        font-size:1rem;
+    }
+@media screen and (min-width: 1024) {
+}
+
+.prenode button, .button{
+    background-color: #ddd;
+}
+
+.metro .window{
+    border: 8px #3470AC solid;
+}
+.metro .window .caption{
+    background-color: #3470AC;
+    border-top: 8px #3470AC solid;
+}
+#divEditform i{
+    cursor:pointer;
+    color:#999;
+}
+.wd90{
+    width:75% !important;
+}
+.metro .personFrom .calendar{
+    width:auto;
+}
+.FileQueue{
+    width: 60%; 
+    position: relative; 
+    margin:-10px 0 0 30px;
+    /*height: 60px; */
+    padding-right: 5px; 
+    overflow: auto;
+    min-height:60px 
+}
+    .FileQueue .fileName a {
+        display: block;
+        width: 90%;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+#trProperty ul.token-input-list-facebook{
+    width:70%;
+}
+.uploadify{
+    float:left;
+}
+.txtFreqency {
+    height: 30px;
+    width: 50px;
+}
+.divFrequency{
+    float: left; margin-left: 10px; line-height: 35px;margin-top:-5px;
+}
+.chkWH20{
+    width:25px;
+    height:20px;
+    float:left;
+}
+.inputUL{
+    float:left;
+    margin:-25px 0 0 30px !important;
+}
+h2{
+    color: gray !important;
+}
+.div-table {
+    padding: 2.5rem 0;
+    width: 100%;
+    display: table;
+}
+.div-table-tr{
+    display: table-row;
+}
+    .div-table-tr .left-bar {
+        width:35px;
+    }
+    .div-table-tr .title {
+        width: 15rem;
+        color:#3470ac;
+		font-weight:bold;
+    }
+    .div-table-tr .search {
+        width: auto;
+        top: -5px;
+        position: relative;
+    }
+    .div-table-tr .div-table-td.td-center {
+        vertical-align: middle;
+        text-align: center;
+    }
+    .div-table-tr .div-table-td.td-topright {
+        vertical-align: top;
+        text-align: right;
+    }
+    .div-table-tr .div-table-td.td-topleft {
+        vertical-align: top;
+        text-align: left;
+    }
+    .div-table-tr .div-table-td.td-middleleft {
+        vertical-align: middle;
+        text-align: left;
+    }
+    .div-table-tr .div-table-td.td-middleright {
+        vertical-align: middle;
+        text-align: right;
+    }
+    .div-table-tr .div-table-td.td-topcenter{
+        vertical-align: top;
+        text-align: center;
+    }
+    .gaosu .div-table .div-table-tr .div-table-td.td-topright{
+        padding-right:15px;
+    }
+    .gaosu .div-table.td-nopaddingtop .div-table-td{
+        padding-top: 0;
+    }
+    .div-table-tr .div-table-td.td-middleright{
+        text-align: right;
+        vertical-align:middle;
+    }
+    .div-table-tr .function {
+        /*float: right;*/
+       
+        color: gray;
+        /*--width: 30rem;--*/
+        text-align: right;
+    }
+.div-table-td {
+    padding-top: 2.5rem;
+    display: table-cell;
+}
+.docConta .divList{
+    width:100%;
+    height:440px;
+    overflow:scroll;
+}
+    .docConta .divList .dataTitle {
+        float: left;
+        width: 20%;
+    }
+    .docConta .divList .dataContent {
+        float: left; margin: 0 0 0 5%; width:28%;
+    }
+    .docConta .divList .dataStatus {
+        float: left; margin: 0 0 0 5%; width:10%;
+    }
+    .docConta .divList .dataDate {
+        float: right; 
+        /*width:20%;*/
+    }
+.listview .list .icon {
+    background-color: #fff !important;
+    color: #3470AC !important;
+}
+.gridORlist {
+    color: #3470AC !important;
+}
+.list-grid .item-cell {
+    width: 31%;
+    background-color: #fff;
+    float: left;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+    .list-grid .item-cell img {
+        width: 120px;
+        height: 80px;
+    }
+.list-grid .panel-header{
+    background-color: #3470AC!important;
+}
+#divGrid{
+    margin: 0 auto; 
+    width: 100%;
+}
+#divGrid .swiper-container {
+    /*width: 93%  !important;
+    height: 630px !important;
+    padding-left:15px;
+	margin: 0 0 0 4% !important;*/
+    padding-left: 1.5rem;
+    width: auto;
+    height: 510px !important;
+}
+#divGrid .list-grid {
+    width: 100%;
+    height: 100%;
+}
+.listContent{
+    width: 100%; 
+    height: 100%; 
+    border-top: solid #ccc 1pt; 
+    padding: 1rem 2.5rem;
+    margin-top: -1pt;
+}
+.list-grid .brand{
+    font-family: "Microsoft YaHei UI" !important;
+
+    color:#999;
+    margin:0 10px !important;
+}
+.metro .listview{
+    padding: 5px 0 0 5px;
+}
+.spContent {
+    color: GrayText !important;
+    font-family: "Microsoft YaHei UI" !important;
+    font-size: 14px;
+}
+.divChk{
+    float:left;
+    margin:10px 5% 10px 0;
+    font-size:20px;
+    font-family: "Microsoft YaHei UI" !important;
+}
+    .divChk input[type=checkbox] {
+        width: 25px;
+        height: 25px;
+    }
+    .divChk span {
+        top: -5px;
+        position: relative;
+        font-weight: bold;
+    }
+.btnUser {
+    float: right;
+    margin: -35px 25px 0 0;
+    font-size: 25px !important;
+    cursor:pointer;
+}
+.flowUser {
+    font-size: 25px !important;
+    cursor:pointer;
+}
+.ui-dialog .ui-dialog-titlebar{
+    background-color: #3470AC ;
+}
+.ui-dialog .ui-dialog-titlebar-close{
+    top: 30%;
+    background-color: #3470AC;
+}
+.ui-dialog {
+    z-index:99999;
+}
+.ui-widget-overlay{
+    /*background:none;*/
+}
+#tabs{
+    height:320px;
+    /*overflow:auto;*/
+}
+.divValue{
+    margin-top:5px;
+}
+.divValue input[type=text]{
+    /*height:35px;*/
+    width:400px;
+}
+.divValue input[type=button]{
+    top:5px;
+    left: 10px;
+}
+.modDiv {
+    float: left;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    margin: 5px;
+    height: 40px;
+    min-width: 135px;
+    text-align: center;
+    padding: 10px 3px;
+    background-color: #DADEE9;
+    font-size: 15px;
+
+    overflow: hidden;
+    /*cursor: default;*/
+    white-space: nowrap;
+}
+.modDiv div{
+    margin-right: 25px;
+}
+.modDiv input[type=checkbox]{
+   float:right;
+   width:20px;
+   height:20px;
+}
+.modDiv:hover{
+    cursor:pointer;
+    background-color:#bbb;
+    border:1px solid #666;
+}
+.headDiv button{
+    width:100px;
+}
+.headDiv{
+    width:100%;
+    text-align:right;
+}
+#divUserInfo ul.token-input-list-facebook{
+    width:500px;
+    float:left;
+    margin-top: 5px;
+}
+.divUserContent {
+    height: 210px;
+    width:100%;
+    overflow-y: scroll;
+}
+.fileUpload, .usersList{
+    float:left;
+    width:86.5%;
+    height:60px;
+    overflow-y:auto;
+    border: 1px solid #ccc;
+}
+.fileUpload span:hover,.usersList span:hover{
+    background-color:#eee;
+    font-size: 15px;
+}
+.btnUpload {
+    font-size: 30px !important;
+    cursor: pointer;
+    top: 5px;
+    position: relative;
+}
+.divFolderContent{
+    height:300px;
+    overflow:auto;
+    margin-top:5px;
+}
+.LoginOverlay {
+    position: fixed;
+    background-color: #bbb;
+    width: 100%;
+    height:100%;
+    z-index: -1;
+}
+.divOverlay{
+    position: fixed;
+    width: 100%;
+    height:100%;
+    z-index: -1;
+}
+#divFormFields .bg1{
+    position:relative;
+}
+#divFormFields .selected:after {
+    border-top: 36px solid #2d89ef;
+    border-left: 36px solid transparent;
+}
+.fc td.fc-sun, .fc td.fc-sat {
+    background: #F2F8F0;
+    color: #0F56EC;
+}
+.metro .tab-control .tabs > li.active a{
+    border-top: 2px #3470AC solid;
+}
+.agTitle{
+    float:left;
+    display: block; 
+    width: 60%; 
+    overflow: hidden; 
+    white-space: nowrap; 
+    -o-text-overflow: ellipsis; 
+    text-overflow: ellipsis;
+}
+.agNode{
+    float:left;
+    display: block; 
+    width: 50%; 
+    overflow: hidden; 
+    white-space: nowrap; 
+    -o-text-overflow: ellipsis; 
+    text-overflow: ellipsis;
+}
+.divBack{
+    float:right;
+    margin-right:5px;
+}
+.metro .window .caption .btn-max {
+    right: 65px;
+}
+.metro .window .caption .btn-min {
+    right: 130px;
+}
+    .metro .window .caption .btn-max:active {
+        right: 65px;
+    }
+    .metro .window .caption .btn-min:active {
+        right: 130px;
+    }
+.gaosu .navigation-bar .dropdown-menu a > span {
+    padding-left:12px;
+}
+.gaosu .navigation-bar .navigation-bar-content .element > .dropdown-menu .left-item{
+    float:left;
+}
+.gaosu .navigation-bar .navigation-bar-content .element > .dropdown-menu .right-action{
+    float:right;
+}
+.gaosu .listview .list.selected {
+    outline: 4px #4390df solid;
+    border:none;
+}
+.gaosu .listview .list.selected:before{
+    right:3px;
+}
+.gaosu .tile.quadro .div-table{
+    font-size:1rem;
+    line-height:1rem;
+}
+.gaosu .tile i{
+    color: gray;
+}
+.gaosu .input-control.select{
+    height:34px;
+}
+.gaosu .input-control.select select{
+    height:100%;
+}
+.gaosu hr.h3{
+    margin-top:5px;
+    color: #eee;
+}
+/*.gaosu .listview .list.inline{
+    display: inline-block;
+}*/
+.infoTextCls{
+    width:70%;
+    height:30px;
+}
+.ui-datepicker select.ui-datepicker-month, .ui-datepicker select.ui-datepicker-year{
+    width:auto;
+}
+.divHERContent, #divUsers {
+    height: 320px;
+    width: 100%;
+    overflow-y: scroll;
+}
+.metro .listview .list .list-content .list-remark{
+    line-height:20px;
+}
+/*----------------------8-5 new add---*/
+.metro .listview .list .list-content .list-title{
+  font-weight:bold;
+  }
+.metro .listview .list{
+  border-width:0px;
+  border-bottom:#eaeaea 1px solid;}
+.bluefont{
+ color:#297fd5;}
+.metro .listview .list .list-content .list-remark i{
+  font-style:normal;}
+.list-name{
+  width:45px;
+  margin-right:5px;
+   display: inline-block;}
+.list-remark .bluefont{
+  margin-right:5px;}
+.metro .listview .list .list-content .dataStatus .list-remark{
+  color:#FF6600;
+ }
+.metro .list-remark button,.metro .dataDate button{
+   background:#6ca0da;
+   color:#fff;}
+.div-table-tr .font40{
+  font-size:22px !important;}
+.div-table-td .font30{
+  font-size:20px;
+  font-size:20px !important;}
+#divDairy div span{
+  white-space:normal;}
+.shouWenProperty ul{
+    float:left;
+}
+.metro .listview .list .list-content .list-title-nobr {
+    margin: 0;
+    padding: 0;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: bold;
+}
+.span-button-mini-bg-blue{
+    font-size:5px;
+    background-color:#6ca0da;
+    color:white;
+    border-radius:3px;
+    padding:0 2px;
+    cursor:pointer
+}
+.span-button-mini-bg-blue:before,
+.span-button-mini-bg-blue:after{
+    content:none;
+    display:none;
+}
+
+.alert-count,
+.message-count{
+    padding:3px;
+    background-color:red;
+    color:white;
+    border-radius:10px;
+    margin-left:-5px;
+    position:absolute;
+    right:5px;
+    top:5px;
+    font-size:9px;
+    min-width:20px;
+    text-align:center;
+}
+
+.alert-count:empty,
+.message-count:empty{
+    display:none;
+}
+
+.user-information .message-count{
+    background-color: #3470AC;
+    position: inherit;
+    display: inline;
+    right: 0;
+    top: 0;
+    font-size: 14px;
+}
